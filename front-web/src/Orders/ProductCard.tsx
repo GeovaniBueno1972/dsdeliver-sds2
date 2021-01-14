@@ -8,9 +8,6 @@ type Props = {
     isSelected: boolean;
 }
 
-
-
-
 function ProductCard({product, onSelectProduct, isSelected}: Props){
     return (
         <div 
